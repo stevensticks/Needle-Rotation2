@@ -1,0 +1,106 @@
+body {
+	font-family: 'Lora', serif;
+	background-color: #eee;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+
+/**************************************************
+				Header
+***************************************************/
+
+
+.cust-header {
+	text-align: center;
+}
+
+.cust-header h2 {
+	margin-top: 130px;
+	font-size: 1.4em;
+}
+
+.cust-header img {
+	margin-top: 10px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #000;
+}
+#custom-bootstrap-menu.navbar-default {
+    height: 130px;
+    font-size: 14px;
+    background-image: none;
+    background-color: rgba(221, 221, 221, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    text-align: right;
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(238, 238, 238, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #dddddd;
+}
+
+#mobile-logo {
+	height: 70px;
+	margin-left: 35px;
+}
+
+/**************************************************
+				Album Page
+***************************************************/
+
+
+h1,h2 {
+	text-align: center;
+}
+
+/*#chapter {
+	margin: 150px 0 0 0;
+}
+*/
+#columnone {
+	/*margin: 150px 0 0 0;*/
+	position: fixed;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo h4 {
+	margin-top: 20px;
+}
+
+.stream-logo  {
+	margin: 0 5px;
+}
