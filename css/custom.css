@@ -14,6 +14,19 @@ li {
 				Header
 ***************************************************/
 
+.big-header {
+	position: fixed;
+	width:100%;
+	z-index: 1;
+	background-color: #ddd;
+	-webkit-box-shadow:0px 1px 15px #444;
+	-moz-box-shadow:0px 1px 15px #444;
+ 	box-shadow:0px 1px 15px #444;
+}
+
+.navbar-toggle {
+	margin-top: 45px;
+}
 
 .cust-header {
 	text-align: center;
@@ -32,13 +45,17 @@ li {
     color: #000;
 }
 #custom-bootstrap-menu.navbar-default {
-    height: 130px;
+    
     font-size: 14px;
     background-image: none;
-    background-color: rgba(221, 221, 221, 1);
+    background-color: #ddd;
     border-width: 0px;
     border-radius: 0px;
 }
+.navbar-header {
+	height: 130px;
+}
+
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     text-align: right;
     color: rgba(119, 119, 119, 1);
@@ -84,13 +101,13 @@ h1,h2 {
 	text-align: center;
 }
 
-/*#chapter {
-	margin: 150px 0 0 0;
-}
-*/
 #columnone {
-	/*margin: 150px 0 0 0;*/
+	margin: 220px 0 0 50px;
 	position: fixed;
+}
+
+#columntwo {
+	margin-top: 200px;
 }
 
 .logo {
@@ -99,8 +116,28 @@ h1,h2 {
 
 .logo h4 {
 	margin-top: 20px;
+
 }
 
 .stream-logo  {
-	margin: 0 5px;
+	margin: 0 2%;
 }
+
+
+@media (max-width: 768px) {
+	#columntwo {
+		margin-top: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
