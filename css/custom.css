@@ -1,3 +1,9 @@
+/**************************************************
+				Global Styles
+***************************************************/
+
+
+
 body {
 	font-family: 'Lora', serif;
 	background-color: #eee;
@@ -6,6 +12,7 @@ body {
 li {
 	list-style: none;
 }
+
 
 
 
@@ -24,26 +31,13 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
+ 	background: url('../img/mobile-hero.jpg') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
 }
 .stopfade { 
    opacity: .5;
 }
-
-
-@media screen and (max-device-width: 800px) {
-  html { background: url('../img/mobile-hero.jpg') #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
-}
-
-
-
-
-
-
-
 
 
 
@@ -94,6 +88,11 @@ video {
     border-width: 0px;
     border-radius: 0px;
 }
+
+.navbar {
+	margin-bottom: 0;
+}
+
 .navbar-header {
 	height: 130px;
 }
@@ -134,6 +133,11 @@ video {
 	margin-left: 35px;
 }
 
+.mobile-hero {
+	width: 100%;
+
+}
+
 /**************************************************
 				Album Page
 ***************************************************/
@@ -166,9 +170,19 @@ h1,h2 {
 }
 
 
+
+
+
+/**************************************************
+				Media Querys
+***************************************************/
+
+
 @media (max-width: 768px) {
-	#columntwo {
+		#columntwo {
 		margin-top: 0px;
+	}
+		#bgvid { display: none;
 	}
 }
 
@@ -176,9 +190,6 @@ h1,h2 {
 
 
 
-.home-info {
-	background-color: #eee;
-}
 
 
 
