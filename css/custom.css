@@ -13,6 +13,18 @@ li {
 	list-style: none;
 }
 
+a {
+	color: #7aa59e;
+}
+
+a:hover {
+	color: #d35235;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #468077;
+}
 
 
 
@@ -40,9 +52,6 @@ video {
 }
 
 
-
-
-
 .big-header {
 	position: fixed;
 	width:100%;
@@ -68,6 +77,23 @@ video {
 
 .cust-header img {
 	margin-top: 10px;
+}
+
+.cust-header a {
+	color: #aaa;
+}
+
+.cust-header a:hover {
+	text-decoration: none;
+	color: #777;
+}
+
+.cust-header a:visited {
+	color: #333;
+}
+
+#selected a h2 {
+	color: #111!important;
 }
 
 #landinghero {
@@ -139,16 +165,64 @@ video {
 }
 
 /**************************************************
+				Landing Page
+***************************************************/
+
+
+.home-info {
+	background-color: #eee;
+	text-align: center;
+	/*margin-top: 850px;*/
+}
+
+.home-info h6 {
+	margin: -2px 0 1px;
+}
+
+.underline {
+	display: inline-block;
+	text-align: center;
+	margin: -2px 0 -2px;
+}
+
+
+
+
+
+
+/**************************************************
+				Story Page
+***************************************************/
+
+
+
+.story {
+	margin-top: 220px;
+}
+
+.story img {
+	opacity: 0.6;
+}
+
+.story img:hover {
+	opacity: 1;
+}
+
+#last-week-info {
+	text-align: center;
+}
+
+/**************************************************
 				Album Page
 ***************************************************/
 
 
-h1,h2 {
+h1,h2,h4,h6 {
 	text-align: center;
 }
 
 #columnone {
-	margin: 220px 0 0 50px;
+	margin: 200px 0 0 50px;
 	position: fixed;
 }
 
@@ -179,17 +253,27 @@ h1,h2 {
 
 
 @media (max-width: 768px) {
-		#columntwo {
-		margin-top: 0px;
-	}
-		#bgvid { display: none;
+			#columntwo {
+			margin-top: 0px;
+		}
+			#bgvid { display: none;
+		}
+			.story {
+			margin-top: 20px;
 	}
 }
 
+@media (min-width: 769px) {
+	.home-info {
+	margin-top: 850px;
+}
+}
 
-
-
-
+@media (min-width: 1170px) {
+	#columnone {
+		margin-left: 10%;
+	}
+}
 
 
 
